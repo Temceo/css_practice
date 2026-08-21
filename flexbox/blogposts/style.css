@@ -1,0 +1,21 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  font-size: 10px;
+}
+
+body {
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
+  min-height: 100vh;
+}
+
+.profile-cards {
+  width: 90%;
+  max-width: 960px;
+  margin: 1rem auto;
+  border: 1px solid red
+}
