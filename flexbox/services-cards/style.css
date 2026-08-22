@@ -1,0 +1,51 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  font-size: 16px;
+}
+
+body {
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  line-height: 1.5;
+  min-height: 100vh;
+}
+
+.mini-title, .title, .para {
+  text-align: center;
+}
+
+.services {
+  width: 90%;
+  max-width: 1200px;
+  margin: 1rem auto;
+}
+
+.service-cards {
+  margin-top: 2rem;
+}
+
+.service-card {
+  box-shadow:  2px 2px 5px rgb(0 0 0 / 0.2);
+  max-width: 300px;
+  margin: 1rem 0;
+  padding: 1rem;
+}
+
+@media(min-width: 700px) {
+  .service-cards {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 1rem;
+  }
+}
+
+@media(min-width: 1200px) {
+  .service-card {
+    max-width: 350px;
+  }
+}
