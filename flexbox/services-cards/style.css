@@ -46,6 +46,6 @@ body {
 
 @media(min-width: 1200px) {
   .service-card {
-    max-width: 350px;
+    max-width:350px;
   }
 }
